@@ -49,14 +49,14 @@ A aplicação estará disponível em http://localhost:5000.
 ### 4. Obter Jogadores por Posição ###
 
 - **Método:** GET
-- **Rota:** `/players/nation/<string:position>`
+- **Rota:** `/players/position/<string:position>`
 - **Descrição:** Retorna uma lista de jogadores com uma determinada posição.
 
 ### 5. Obter 50 Melhores Jogadores (por Overall) ###
 
 - **Método:** GET
-- **Rota:** `/players/nation/<string:nation>`
-- **Descrição:** Retorna uma lista ordenada de 50 jogadores com o maior Overall.
+- **Rota:** `/players/best`
+- **Descrição:** Retorna uma lista ordenada (maior para o menor) de 50 jogadores com o maior Overall.
 
 
 
